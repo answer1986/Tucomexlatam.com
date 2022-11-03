@@ -1,0 +1,72 @@
+/* hoja de stylo*/
+
+
+
+#navegadora{
+
+background-color: #1a489892;
+margin-top: 0px;
+}
+
+#test{
+background-color: transparent;
+}
+
+a.dropbtn{
+  color: #fbfbfc;
+}
+
+#boton-servicio{
+
+  margin-top: 16px;
+  margin-right: 5px;
+  color: #66686b;
+}
+
+#boton-contacto{
+  margin-top: 8px;
+}
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.header-top{
+  
+  background: radial-gradient(#908f8e, #080808);
+  
+}
+
+#footers{
+  background: radial-gradient(#908f8e, #080808);
+  text:white;
+}
+
+#text-footer{
+  color: white;
+}
+
+
+#contacto-form{
+ 
+}
