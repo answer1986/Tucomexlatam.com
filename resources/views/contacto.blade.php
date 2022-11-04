@@ -7,7 +7,7 @@
 <br>
 <div class = "container" id="contacto-form">
     <br>
-   <div class ="container" style="background-image:url('/tucomexlatam/public/img/comercio-internacional.png');"> 
+   <div class ="container"  id="contasto"> 
     <div class = "row" style="text-align:center">
         <h2>CONTÁCTANOS</h2>
     </div>
@@ -33,12 +33,10 @@
    
    
 
-    <div class="form-group row" style="margin-top:20px;">
-                <label for="nombre" class="col-form-label col-sm-3" style="width:120px;">Teléfono de contacto *</label>
-              <div class="col-sm-8">
-            <input type="number" name="celular" id="nombre" class="form-control" placeholder="Celular" tabindex="1" style="width: 200px;">
-              </div>
-     </div>
+    <form>
+       <label for="nombre" class="col-form-label col-sm-3" style="width:120px;">Teléfono de contacto *</label>
+       <input type="tel"  id="phone"  placeholder="Teléfono de contacto">
+    </form>
 
     
 

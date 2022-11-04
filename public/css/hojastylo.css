@@ -68,5 +68,7 @@ a.dropbtn{
 
 
 #contasto{
- 
+ background-image: url("../img/comercio-internacional.png");
+ background-repeat: no-repeat;
+ background-size: cover;
 }
