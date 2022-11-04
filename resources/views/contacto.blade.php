@@ -34,10 +34,10 @@
    
 
     <form>
-       <label for="nombre" class="col-form-label col-sm-3" style="width:120px;">Teléfono de contacto *</label>
+       <label for="nombre" class="col-form-label col-sm-3" style="width:220px;">Teléfono de contacto *</label>
        <input type="tel"  id="phone"  placeholder="Teléfono de contacto">
     </form>
-
+<br>
     
 
      <div class="mb-3">

@@ -1,5 +1,6 @@
 
 @section('footer')
+<br>
 <footer class="bg-img background-size-contain" id="footers" data-overlay-dark="9">
             <div class="container">
                 <div class="row">
@@ -17,6 +18,7 @@
                     </div>
 
                     <div class="col-lg-6 col-md-6 sm-margin-30px-bottom sm-display-none xs-display-none">
+                        <br>
                         <div class="row">
                             <div class="col-md-6 no-padding-right xs-padding-15px-right">
                                 <ul class="footer-list xs-margin-5px-bottom">
@@ -38,6 +40,7 @@
                     </div>
 
                     <div class="col-lg-3 col-md-4">
+                        <br>
                         <ul class="footer-list xs-margin-5px-bottom">
                             <li><a id="text-footer" href="{{url('/contacto')}}">CONTACTO</></li>
                         </ul>
@@ -54,7 +57,7 @@
                     <p id="text-footer" >© 2022 Tucomexlatam| Todos los Derechos Reservados</p>
                 </div>
             </div>
-        </footer>
+ </footer>
 
             
 @endsection
