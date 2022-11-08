@@ -1,5 +1,6 @@
 <?php
 
+use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -44,5 +45,8 @@ Route::get('/preguntas', function () {
 });
 
 Route::get('/contacto', function () {
+    //$correo =
+    //Mail::to('inv.riquelme@gmail.com')->send($correo);
+    //return("Mensaje enviado");
     return view('Contacto');
 });

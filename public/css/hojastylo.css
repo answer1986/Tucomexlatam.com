@@ -4,7 +4,7 @@
 
 #navegadora{
 
-background-color: #1a489892;
+background: radial-gradient( #9e9999,  #080808);
 margin-top: 0px;
 }
 
@@ -13,7 +13,7 @@ background-color: transparent;
 }
 
 a.dropbtn{
-  color: #fbfbfc;
+  color: #f7f7fa;
 }
 
 #boton-servicio{
@@ -21,6 +21,7 @@ a.dropbtn{
   margin-top: 16px;
   margin-right: 5px;
   color: #66686b;
+  font-size: small;
 }
 
 #boton-contacto{
@@ -31,7 +32,7 @@ a.dropbtn{
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #f9f9f9;
+  background:radial-gradient( #9e9999, #080808);
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
@@ -45,7 +46,7 @@ a.dropbtn{
   text-align: left;
 }
 
-.dropdown-content a:hover {background-color: #f1f1f1;}
+.dropdown-content a:hover {background-color: #8f8989;}
 
 .dropdown:hover .dropdown-content {
   display: block;
@@ -62,13 +63,26 @@ a.dropbtn{
   text:white;
 }
 
+#text-navbar{
+  color: white;
+  font-size: small;
+}
+
+#text-navbar:hover{
+  color: #0d0df1;
+
+}
+
 #text-footer{
   color: white;
 }
-
 
 #contasto{
  background-image: url("../img/comercio-internacional.png");
  background-repeat: no-repeat;
  background-size: cover;
+}
+
+.headcont{
+  font-size: 12px ;
 }
