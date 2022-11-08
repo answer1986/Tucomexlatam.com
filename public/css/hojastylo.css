@@ -6,6 +6,8 @@
 
 background: radial-gradient( #9e9999,  #080808);
 margin-top: 0px;
+padding-top:0px;
+padding-bottom: 0px;
 }
 
 #test{
@@ -69,7 +71,7 @@ a.dropbtn{
 }
 
 #text-navbar:hover{
-  color: #0d0df1;
+  color: #409dc8;
 
 }
 
@@ -85,4 +87,16 @@ a.dropbtn{
 
 .headcont{
   font-size: 12px ;
+}
+
+
+#iconors{
+  margin: 5px;
+}
+
+#imageners{
+  padding:1px;
+  margin: 2px;
+  width: 100px;
+  height: 180px;
 }

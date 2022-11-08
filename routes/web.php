@@ -44,9 +44,14 @@ Route::get('/preguntas', function () {
     return view('Preguntas');
 });
 
+Route::get('/servicios', function () {
+    return view('Servicios');
+});
+
 Route::get('/contacto', function () {
     //$correo =
     //Mail::to('inv.riquelme@gmail.com')->send($correo);
     //return("Mensaje enviado");
     return view('Contacto');
 });
+
