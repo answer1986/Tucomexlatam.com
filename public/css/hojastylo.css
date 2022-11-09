@@ -94,9 +94,64 @@ a.dropbtn{
   margin: 5px;
 }
 
+
+.card h-100{
+  width: 150px;
+  height: 150px;
+}
+
+/* servicios cajas **/
+
+#containers{
+  margin-left:  10px;
+  margin-right: 10px;
+  padding: 0px;
+}
+
+#rowrs{
+  margin: 0px;
+  width: 1300px;
+}
+
+/* imagene **/
+.card-img-top{
+  padding:0px;
+  margin: 0px;  
+}
+
+#cartars {
+  color:white;
+  align-items: center;
+  background-color: #409dc8;
+  width: 150px;
+  
+
+}
+
+.card-img-top{
+  width: 30%;
+  height: 70%;
+  
+}
+
+#cardbody{
+  width:  100px;
+  height: 100px;
+  background-color: #409dc8 ;
+  margin: 20px;
+}
+
+#textors{
+  font-size: 10px;
+}
+
 #imageners{
-  padding:1px;
-  margin: 2px;
-  width: 100px;
-  height: 180px;
+  margin: 0px;
+  padding: 0px;
+}
+
+
+
+#cartars:hover , #cardbody:hover {
+  background-color: orange;
 }

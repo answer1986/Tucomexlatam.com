@@ -16,24 +16,24 @@ use Illuminate\Support\Facades\Route;
 
 
 Route::get('/', function () {
-    return view('Inicio');
+    return view('inicio');
 });
 
 Route::get('/quines_somos', function () {
-    return view('Quienes-somos');
+    return view('quienes-somos');
 });
 
 Route::get('/servicios', function () {
-    return view('Servicios');
+    return view('servicios');
 });
 
 
 Route::get('/importacion', function () {
-    return view('Importacion');
+    return view('importacion');
 });
 
 Route::get('/exportacion', function () {
-    return view('Exportacion');
+    return view('exportacion');
 });
 
 Route::get('/asesorias', function () {
@@ -41,11 +41,11 @@ Route::get('/asesorias', function () {
 });
 
 Route::get('/preguntas', function () {
-    return view('Preguntas');
+    return view('preguntas');
 });
 
 Route::get('/servicios', function () {
-    return view('Servicios');
+    return view('servicios');
 });
 
 Route::get('/contacto', function () {

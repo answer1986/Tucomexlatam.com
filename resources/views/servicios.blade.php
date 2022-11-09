@@ -4,33 +4,94 @@
 @extends('essentials.navbar')
 
 @section('content')
+<br>
+<div class="container" id="containers">
+    <div class="row" id="rowrs">
+        <div class="col" id="imageners">
+            <div class="card text-center" id="cartars">
+            <div class="card-body" id="cardbody">
+                <img src="{{asset('img/Iconos/1.png')}}" class="card-img-top" alt="...">
+                <a id="textors" >Transporte Nacional</a>
+            </div>
+            </div>
+        </div>
 
-<div class="row align-items-start" id="iconors">
-    <div class="col"id="imageners">
-      <img src="{{ asset('img/Iconos/icono1.jpg') }}" alt="imagen1" id="imageners" style="width:100%; height:100%; margin-top: 50px">
-    </div>
-    <div class="col" id="imageners">
-      <img src="{{ asset('img/Iconos/icono2.jpg') }}" alt="imagen2" id="imageners" style="width:100%; height:100%; margin-top: 50px">
-    </div>
-    <div class="col" id="imageners">
-      <img src="{{ asset('img/Iconos/icono3.jpg') }}" alt="imagen3" id="imageners" style="width:100%; height:100%; margin-top: 50px">
-    </div>
-    <div class="col" id="imageners">
-      <img src="{{ asset('img/Iconos/icono9.jpg') }}" alt="imagen4" id="imageners" style="width:100%; height:100%; margin-top: 50px">
-    </div>
-    <div class="col" id="imageners">
-        <img src="{{ asset('img/Iconos/icono5.jpg') }}" alt="imagen5" id="imageners" style="width:100%; height:100%; margin-top: 50px">
-    </div>
-    <div class="col"id="imageners">
-        <img src="{{ asset('img/Iconos/icono6.jpg') }}" alt="imagen5" id="imageners" style="width:100%; height:100%; margin-top: 50px">
-    </div>
-    <div class="col" id="imageners">
-        <img src="{{ asset('img/Iconos/icono7.jpg') }}" alt="imagen5" id="imageners" style="width:100%; height:100%; margin-top: 50px">
-        <a>holi</a>
-    </div>
-  </div>
+        <div class="col" id="imageners">   
+            <div class="card text-center" id="cartars">
+            <div class="card-body" id="cardbody">
+                <img src="{{asset('img/Iconos/2.png')}}" class="card-img-top" alt="...">
+                <a id="textors">Outsourcing en comercio exterior</a>
+            </div>
+            </div>
+        </div>
 
-  <br>
+
+        <div class="col" id="imageners"> 
+            <div class="card text-center" id="cartars">
+            <div class="card-body" id="cardbody">
+                <img src="{{asset('img/Iconos/3.png')}}" class="card-img-top" alt="...">
+                <a id="textors">Negociacion proveedores</a>
+            </div>
+            </div>
+        </div>   
+
+        <div class="col" id="imageners"> 
+            <div class="card text-center" id="cartars">
+            <div class="card-body"id="cardbody">
+                <img src="{{asset('img/Iconos/4.png')}}" class="card-img-top" alt="...">
+                <a id="textors">Transporte internacional</a>
+            </div>
+            </div>
+        </div>   
+
+        <div class="col" id="imageners"> 
+            <div class="card text-center" id="cartars">
+            <div class="card-body" id="cardbody">
+                <img src="{{asset('img/Iconos/5.png')}}" class="card-img-top" alt="...">
+                <a id="textors">Asesoria comercio exterior</a>
+            </div>
+            </div>
+        </div>
+
+
+        <div class="col" id="imageners">     
+            <div class="card text-center" id="cartars">
+            <div class="card-body" id="cardbody">
+                <img src="{{asset('img/Iconos/6.png')}}" class="card-img-top" alt="...">
+                <a id="textors">Aduana</a>
+            </div>
+            </div>
+        </div>    
+
+        <div class="col" id="imageners">     
+            <div class="card text-center" id="cartars">
+            <div class="card-body" id="cardbody">
+                <img src="{{asset('img/Iconos/7.png')}}" class="card-img-top" alt="...">
+                <a id="textors">Logistica</a>
+            </div>
+            </div>
+        </div>
+
+        <div class="col" id="imageners">     
+            <div class="card text-center" id="cartars">
+            <div class="card-body" id="cardbody">
+                <img src="{{asset('img/Iconos/8.png')}}" class="card-img-top" alt="...">
+                <a id="textors">Seguros</a>
+            </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+<br>
+
+
+
+
+
+
+
+  
 @endsection
 
 
