@@ -10,6 +10,7 @@
 
             <link type="text/css" href="{{asset('./css/hojastylo.css') }}" rel="stylesheet">
             <link rel="stylesheet" href="{{asset ('./css/intlTelInput.css')}}">
+            <link rel="stylesheet" href="{{asset ('./css/t-scroll.min.css')}}">
             <title>Tucomexlatam.com</title>
 
             <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
@@ -29,8 +30,120 @@
             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
             <script src="./js/intlTelInput.js"></script>
+            <script src="./js/utils.js"></script>
+            <script src="./js/bootstrap.js"></script>
+            <script src="./js/parallax.min.js"></script>
+            <script src="./js/funciones.js"></script>
+            <script src="./js/animado.js"></script>
+            <script src="./js/t-scroll.min.js"></script>
+           
+
+
+
             <script>
-             var input =  document.querySelector("#phone");
-             window.intlTelInput(input, {});
-             </script>
+                var input =  document.querySelector("#phone");
+                window.intlTelInput(input, {});
+            </script>
+        <script>     
+
+
+                Tu.tScroll({
+
+            't-element': '.animado',
+
+            't-duration': 1
+
+            });
+
+            $('.parallax').paroller({
+
+            factor: 0.3,            // multiplier for scrolling speed and offset
+
+            type: 'background',     // background, foreground
+
+            direction: 'vertical' // vertical, horizontal, TODO: diagonal
+
+            });
+
+
+
+            /* Loader */
+
+            // Animate loader off screen
+
+            $(".se-pre-con").fadeOut("slow");;
+
+
+
+            /* Fin Loader*/
+
+            $(function() {
+
+            $(window).scroll(function() {
+
+            if ($(window).scrollTop() > 10) {
+
+                $("header").addClass("fijo");
+                $(".navbar").addClass("fijo");
+
+                $("body").addClass("paddingTop");
+
+                $(".der-car").addClass("fijo");
+
+            } else {
+
+                $("header").removeClass("fijo");
+                $(".navbar").removeClass("fijo");
+
+                $("body").removeClass("paddingTop");
+
+                $(".der-car").removeClass("fijo");
+
+                }
+
+            });
+
+            });
+
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+
+            anchor.addEventListener('click', function (e) {
+
+                e.preventDefault();
+
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+
+                    behavior: 'smooth',
+
+                    inline:'center',
+
+
+                });
+
+
+
+            });
+
+            });
+
+            $(document).on('click', '.dropdown-menu', function (e) {
+
+            e.stopPropagation();
+
+            });
+
+            $(function(){ 
+
+            var navMain = $("#bs-example-navbar-collapse-1");
+
+            navMain.on("click", "a", null, function () {
+
+                navMain.collapse('hide');
+
+            });
+
+            });
+
+   </script>
+
 </html>
