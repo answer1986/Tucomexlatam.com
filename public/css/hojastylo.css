@@ -79,11 +79,43 @@ a.dropbtn{
   color: white;
 }
 
+
+/** contacto  */
+
 #contasto{
- background-image: url("../img/comercio-internacional.png");
+ /*background-image: url("../img/comercio-internacional.png");*/
  background-repeat: no-repeat;
  background-size: cover;
 }
+
+
+.hero {
+	background: white;
+	min-height: 15vh;
+	display: flex;
+	align-items: center;
+  height: 200px;
+}
+
+.texto {
+	width: 100%;
+	color: transparent;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 120px;
+	font-weight: bold;
+
+	background-image: url('../img/fotoportada-preguntas/preguntas.jpg');
+	background-size: cover;
+	background-position-y: 700px;
+	
+	background-clip: text;
+	-webkit-background-clip: text;
+
+	-webkit-text-fill-color: transparent;
+}
+
+/** end contacto */
 
 .headcont{
   font-size: 12px ;
@@ -267,3 +299,37 @@ margin: 0;
   left: 0;
 }
 /************  *******/
+/*-- carrousel  --*/
+
+.carousel-item{
+  height: 800px;
+  position: relative;
+}
+
+.ccarousel-caption h1{
+  position: absolute;
+  margin-bottom: 30%;
+}
+
+
+/*-- end carrousel  --*/
+
+/*-- preguntas-views  --*/
+
+#cabecera_pagina{
+  padding: 0%;
+  margin: 0%;
+}
+
+#contenedor-imagen{
+  margin: 0%;
+  padding: 0%;
+}
+
+
+#cabecera-preguntas{
+  height: auto;
+  width:100% ;
+  margin: 0%;
+  padding: 0%;
+}

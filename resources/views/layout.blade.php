@@ -36,7 +36,8 @@
             <script src="./js/funciones.js"></script>
             <script src="./js/animado.js"></script>
             <script src="./js/t-scroll.min.js"></script>
-           
+            <script src="https://www.google.com/recaptcha/enterprise.js?render=6Le5B_giAAAAADZqRxpLi3_0txtYAbLKq-Wn4UEx"></script>
+            <script src="www.google.com/recaptcha/api.js" async defer></script>
 
 
 

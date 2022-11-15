@@ -1,7 +1,8 @@
 <?php
 
-use Illuminate\Support\Facades\Mail;
+use App\Http\Controllers\ContactanosController;
 use Illuminate\Support\Facades\Route;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -48,10 +49,6 @@ Route::get('/servicios', function () {
     return view('servicios');
 });
 
-Route::get('/contacto', function () {
-    //$correo =
-    //Mail::to('inv.riquelme@gmail.com')->send($correo);
-    //return("Mensaje enviado");
-    return view('Contacto');
-});
-
+Route::get('/contacto',[ContactanosController::class, 'contacto'])->name('contacto'); 
+Route::post('/contacto',[ContactanosController::class, 'store'])->name('contacto.store');
+ 
