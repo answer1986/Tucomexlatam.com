@@ -13,6 +13,10 @@
     </div>
 
 </div>
+
+<img src="{{URL::asset('./img/fotoportada-preguntas/preguntas.jpg')}}" class="d-block w-100" alt="...">
+
+
 <div class="container">
 parte2
 </div>
