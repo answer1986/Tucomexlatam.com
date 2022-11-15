@@ -49,6 +49,7 @@ Route::get('/servicios', function () {
     return view('servicios');
 });
 
-Route::get('/contacto',[ContactanosController::class, 'contacto'])->name('contacto'); 
-Route::post('/contacto',[ContactanosController::class, 'store'])->name('contacto.store');
- 
+Route::get('/contacto', function () {
+    return view('contacto');
+});
+

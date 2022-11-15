@@ -20,8 +20,6 @@
     </div>
 </div>
     <br>
-    <form action="{{route('contacto.store')}}" method="POST">
-        @csrf
                 <div class="form-group">
                     <label for="name">Nombre</label>
                     <input type="text" class="form-control" name="name" id="name" placeholder="Nombre" required>
@@ -38,7 +36,7 @@
                     <label for="message">Mensaje</label>
                     <textarea class="form-control" name="message" id="message" rows="3" placeholder="Mensaje" required></textarea>
                 </div>
-                <button type="submit" class="btn btn-primary">Enviar</button>
+               
                 <div class="mb-3">
                     <label for="email" class="form-label">Correo Electrónico *</label>
                     <input type="email" size="25" maxlength="100" required pattern="[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*@[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*[.][a-zA-Z]{1,5}" class="form-control" id="email" placeholder="correo@ejemplo.com">
