@@ -97,7 +97,7 @@ a.dropbtn{
   height: 200px;
 }
 
-.texto {
+.textors {
 	width: 100%;
 	color: transparent;
 	text-align: center;
@@ -177,9 +177,9 @@ element.style {
 :root {
   --blanco: #fff;
   --color-header: #6E6E6D;
-  --color-titulo: #8D8D8D;
-  --color-texto: #AAAAAA;
-  --amarillo: #F29100;
+  --color-titulo: #fbf6f6;
+  --color-texto: #fbf9f9;
+  --amarillo: #2b87b1;
   --negro: #000;
 }
 * {
@@ -239,7 +239,7 @@ margin: 0;
 .barra-home a[class=barra-activa]::after {
   position: absolute;
   content: '';
-  background-image: url(../img/triangulo-abajo.svg);
+  background-image: url(../img/Iconos/triangulo.png);
   background-repeat: no-repeat;
   background-size: cover;
   width: 40px;
@@ -260,7 +260,7 @@ margin: 0;
   font-family: 'calibri';
 }
 .barra-home a:last-of-type {
-  background-color: #382C41;
+  background-color: #2b87b1;
 }
 .barra-home a:hover {
   transition: all .6s;
@@ -302,7 +302,7 @@ margin: 0;
 /*-- carrousel  --*/
 
 .carousel-item{
-  height: 800px;
+  height: 600px;
   position: relative;
 }
 
@@ -316,20 +316,33 @@ margin: 0;
 
 /*-- preguntas-views  --*/
 
-#cabecera_pagina{
-  padding: 0%;
-  margin: 0%;
+.consejos{
+  position: relative;
+  text-align: center;
+  color: white;
 }
 
-#contenedor-imagen{
-  margin: 0%;
-  padding: 0%;
+.centered{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#centered{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 
-#cabecera-preguntas{
-  height: auto;
-  width:100% ;
-  margin: 0%;
-  padding: 0%;
+/*-- Icono footer --*/
+
+.tucomexicon{
+  background-image: url('../img/gif/tucomexlatam.com-2.gif');
+  border: 1px solid black;
+  height: 100px;
+  border-radius: 50%;
 }
+

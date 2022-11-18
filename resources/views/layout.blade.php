@@ -11,6 +11,7 @@
             <link type="text/css" href="{{asset('./css/hojastylo.css') }}" rel="stylesheet">
             <link rel="stylesheet" href="{{asset ('./css/intlTelInput.css')}}">
             <link rel="stylesheet" href="{{asset ('./css/t-scroll.min.css')}}">
+            <link rel="stylesheet" href="{{asset ('./css/styloso.css')}}">
             <title>Tucomexlatam.com</title>
 
             <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
@@ -45,106 +46,154 @@
                 var input =  document.querySelector("#phone");
                 window.intlTelInput(input, {});
             </script>
-        <script>     
-
-
+                        <script>
                 Tu.tScroll({
 
-            't-element': '.animado',
+                't-element': '.animado',
 
-            't-duration': 1
+                't-duration': 1
 
-            });
+                });
 
-            $('.parallax').paroller({
+                $('.parallax').paroller({
 
-            factor: 0.3,            // multiplier for scrolling speed and offset
+                factor: 0.3,            // multiplier for scrolling speed and offset
 
-            type: 'background',     // background, foreground
+                type: 'background',     // background, foreground
 
-            direction: 'vertical' // vertical, horizontal, TODO: diagonal
-
-            });
-
-
-
-            /* Loader */
-
-            // Animate loader off screen
-
-            $(".se-pre-con").fadeOut("slow");;
-
-
-
-            /* Fin Loader*/
-
-            $(function() {
-
-            $(window).scroll(function() {
-
-            if ($(window).scrollTop() > 10) {
-
-                $("header").addClass("fijo");
-                $(".navbar").addClass("fijo");
-
-                $("body").addClass("paddingTop");
-
-                $(".der-car").addClass("fijo");
-
-            } else {
-
-                $("header").removeClass("fijo");
-                $(".navbar").removeClass("fijo");
-
-                $("body").removeClass("paddingTop");
-
-                $(".der-car").removeClass("fijo");
-
-                }
-
-            });
-
-            });
-
-            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-
-            anchor.addEventListener('click', function (e) {
-
-                e.preventDefault();
-
-                document.querySelector(this.getAttribute('href')).scrollIntoView({
-
-                    behavior: 'smooth',
-
-                    inline:'center',
-
+                direction: 'vertical' // vertical, horizontal, TODO: diagonal
 
                 });
 
 
 
-            });
+                /* Loader */
 
-            });
+                // Animate loader off screen
 
-            $(document).on('click', '.dropdown-menu', function (e) {
+                $(".se-pre-con").fadeOut("slow");;
 
-            e.stopPropagation();
 
-            });
 
-            $(function(){ 
+                /* Fin Loader*/
 
-            var navMain = $("#bs-example-navbar-collapse-1");
+                $(function() {
 
-            navMain.on("click", "a", null, function () {
+                $(window).scroll(function() {
 
-                navMain.collapse('hide');
+                if ($(window).scrollTop() > 10) {
 
-            });
+                    $("header").addClass("fijo");
+                    $(".navbar").addClass("fijo");
 
-            });
+                    $("body").addClass("paddingTop");
 
-   </script>
+                    $(".der-car").addClass("fijo");
+
+                } else {
+
+                    $("header").removeClass("fijo");
+                    $(".navbar").removeClass("fijo");
+
+                    $("body").removeClass("paddingTop");
+
+                    $(".der-car").removeClass("fijo");
+
+                    }
+
+                });
+
+                });
+
+                document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+
+                anchor.addEventListener('click', function (e) {
+
+                    e.preventDefault();
+
+                    document.querySelector(this.getAttribute('href')).scrollIntoView({
+
+                        behavior: 'smooth',
+
+                        inline:'center',
+
+
+                    });
+                
+
+
+                });
+
+                });
+
+                $(document).on('click', '.dropdown-menu', function (e) {
+
+                e.stopPropagation();
+
+                });
+
+                $(function(){ 
+
+                var navMain = $("#bs-example-navbar-collapse-1");
+
+                navMain.on("click", "a", null, function () {
+
+                    navMain.collapse('hide');
+
+                });
+
+                });
+
+            </script>
+
+<script type="text/javascript">
+		$(document).ready(function(){
+			document.querySelectorAll('.nombre-navegacion')[0].classList.add('nav-header-activo');
+		});
+        $("#owl1").owlCarousel({
+    
+        autoPlay: 9000, //Set AutoPlay to 3 seconds
+    
+        itemsDesktop : false,
+        itemsDesktopSmall : false,
+        itemsTablet: false,
+        items : 1,
+		stagePadding: 0,
+		autoWidth:true,
+        navigation: true,
+            responsiveClass: true,
+            navigationText : ['<span class="carousel-control-next-icon" aria-hidden="true"><img src="img/arrow-prev.svg" width="60" height="auto" alt="Anterior"></span>','<span class="carousel-control-next-icon" aria-hidden="true"><img src="img/arrow-next.svg" width="60" height="auto" alt="Anterior"></span>']
+        });
+
+		function navServicios(elemento,info) {
+			var a = document.querySelectorAll('.barra-home a');
+			$('.barra-home a').removeClass('barra-activa');
+			
+			$(elemento).addClass("barra-activa");
+			$('.sec-1-home').css("display","none");
+			$('.sec-1-home:nth-child('+info+')').css("display","grid");
+			if(screen.width <= 728)
+			{
+				$('html, body').animate({
+                    scrollTop: $(".fondo-body").offset().top-200
+                }, 1000);
+			}
+		}
+		function ocultarNavbar(elemento,posicion) 
+		{
+			$('.nombre-navegacion').each(function(){
+				$(this).removeClass('nav-header-activo');
+			});
+			var navegacion = document.querySelectorAll('.nombre-navegacion');
+			for(var i = 0; i < navegacion.length;i++)
+			{
+				if(i == posicion){
+					$(elemento).addClass('nav-header-activo');
+				}
+			}
+			$(".navbar-collapse").removeClass("show");
+
+		}
+    </script>
 
 </html>

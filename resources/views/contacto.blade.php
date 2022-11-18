@@ -10,7 +10,7 @@
    <div class ="container"  id="contasto">
 
    <div class = "hero">
-        <h1 class="texto">CONTÁCTANOS</h1>
+        <h1 class="textors">CONTÁCTANOS</h1>
     </div>
    
     <br>
