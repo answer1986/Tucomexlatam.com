@@ -245,7 +245,20 @@
 				</div>
 			</div>
 
-
+<!-- video -->
+<br>
+<div class="container text-center">
+  <div class="row">
+    <div class="col">
+      1 of 2
+    </div>
+    <div class="col">
+	<video width=800  height=400 controls poster="vistaprevia.jpg">
+        <source src="{{asset('/video/T-Internacional.mp4')}}" type="video/mp4">
+    </video>
+    </div>
+  </div>
+</div>
 
 
 
