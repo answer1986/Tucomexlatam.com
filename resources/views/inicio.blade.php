@@ -197,6 +197,8 @@
 							<p></p><p class="fr-tag">Orientamos en materias técnicas y operativas para todo el proceso de importación, tales como normativa aduanera, tratados internacionales, riesgos operacionales y costos directos.</p><p></p>
 						</div>
 					</section>
+
+					
 					<!-- OUTSOURCING -->
 					<section class="sec-1-home">
 						<div class="texto animado fadeLeft undefined t-animated t-default" style="animation-duration: 1s; opacity: 1;">
@@ -249,21 +251,55 @@
 <br>
 <div class="container text-center">
   <div class="row">
-    <div class="col">
-      1 of 2
-    </div>
-    <div class="col">
-	<video width=800  height=400 controls poster="vistaprevia.jpg">
-        <source src="{{asset('/video/T-Internacional.mp4')}}" type="video/mp4">
-    </video>
-    </div>
+		<div class="col">
+			<h2>En tucomex te asesoramos:</h2>
+			<p>Asesoramos en la gestión de la documentación base, a establecer criterios definidos sobre la distribución de los gastos y la transmisión de los riesgos entre la parte compradora y la parte vendedora en un contrato de compraventa internacional (incoterms), en procesos de embarque y logística, como reservas de espacio, pactar fletes, coordinación de transportes, consolidaciones, entre otros términos comerciales.
+
+				Contamos con un valioso equipo de trabajo especializado con la principal misión de asegurar la salida y buen estado de la mercadería hasta el puerto aéreo /marítimo / terrestre de destino. 
+
+				No se deja nada al azar, ya que  todos los procesos son controlados permitiendo que el exportador esté seguro que su carga va a cumplir todas sus etapas estipuladas en el tiempo óptimo.   </p>
+	
+		</div>
+		<div class="col">
+		<video id="videors" controls poster="vistaprevia.jpg">
+			<source src="{{asset('/video/T-Internacional.mp4')}}" type="video/mp4">
+		</video>
+		</div>
   </div>
 </div>
 
+<br>
+<div class="container-export-import">
+	  <div class="row">
+			<div class="col" id="boxes">
+				<h2 style="text-align:center;">Comercio internacional:</h2>
+				<p style= "text-align:center;"> Analisamos el proceso, validamos tu operacion, mejoramos tu propuesta y llevamos al proximo nivel tu negocio,   </p>
+			</div>
+			<div class="col" id= "boxes1">
+				<h2 style="text-align:center;">Exportacion:</h2>
+				<p style= "text-align:center;"> Analisamos el proceso, validamos tu operacion, mejoramos tu propuesta y llevamos al proximo nivel tu negocio,   </p>
 
+			</div>
 
+			<div class="col" id= "boxes2">
+				<h2 style="text-align:center;">Importacion:</h2>
+				<p style= "text-align:center;"> Analisamos el proceso, validamos tu operacion, mejoramos tu propuesta y llevamos al proximo nivel tu negocio,   </p>
 
+			</div>
 
+			<div class="col" id= "boxes3">
+				<h2 style="text-align:center;">Otros:</h2>
+				<p style= "text-align:center;"> Analisamos el proceso, validamos tu operacion, mejoramos tu propuesta y llevamos al proximo nivel tu negocio,   </p>
+
+			</div>
+  		</div>
+</div>
+
+<div class="container">
+	<h2>Todo Aqui</h2>
+	<p>A un click de distancia</p>
+	<button class="btn btn-primary">Click Me!</button>
+</div>
 @stop
 
 @extends('essentials.footer')

@@ -10,10 +10,13 @@ input[type=number] {
     background-size: cover;
     background-position: center;
     width: 100%;
-    filter: brightness(120%)
+    filter: brightness(120%);
+    margin-top: 0px;
 }
 
-
+.Servicioss{
+    margin: 0;
+}
 
 
 .barra-home {
@@ -29,7 +32,7 @@ input[type=number] {
 .barra-home a[class=barra-activa]::after {
     position: absolute;
     content: '';
-    background-image: url(../img/triangulo-abajo.svg);
+    background-image: url(../img/Iconos/triangulo.png);
     background-repeat: no-repeat;
     background-size: cover;
     width: 40px;
@@ -93,6 +96,7 @@ input[type=number] {
     content: '';
     height: 3px;
     background-color: var(--amarillo);
+    background:radial-gradient( #9e9999, #080808);
     top: 0;
     width: 20%;
     right: 0;
@@ -116,6 +120,7 @@ input[type=number] {
     font-family: 'segoe';
     max-width: 640px !important;
     text-align: right;
+    
 }
 .sec-1-home .texto h5 {
     text-align: right;
@@ -125,6 +130,7 @@ input[type=number] {
     color: var(--color-titulo);
     text-transform: uppercase;
     max-width: 640px !important;
+    text-shadow: 0 0 3px #050404, 0 0 5px #0000ff;
 }
 .sec-1-home .texto:last-of-type h5 {
     font-size: 43px;
@@ -139,6 +145,7 @@ input[type=number] {
     font-weight: normal;
     font-family: 'calibri';
     color: var(--color-texto);
+    text-shadow: 0 0 3px #050404, 0 0 5px #0000ff;
 }
 .empezamos {
     width: 90%;
@@ -511,6 +518,10 @@ input[type=number] {
     .copyright .flex {
         flex-direction: column;
     }
+
+
+
+
 }
 
 
