@@ -146,7 +146,7 @@
 					<section class="sec-1-home" style="display:grid;">
 						<div class="texto animado fadeLeft undefined t-animated t-default" style="animation-duration: 1s; opacity: 1;">
 							<h5>Transporte Internacional</h5>
-							<p>Logística</p>
+							<p style="color:white ;">Logística</p>
 						</div>
 						<div class="texto animado fadeRight undefined t-animated t-default" style="animation-duration: 1s; opacity: 1;">
 							<h5>01.</h5>
@@ -157,7 +157,7 @@
 					<section class="sec-1-home">
 						<div class="texto animado fadeLeft undefined t-animated t-default" style="animation-duration: 1s; opacity: 1;">
 							<h5>Transporte Nacional</h5>
-							<p>Logística</p>
+							<p style="color:white ;">Logística</p>
 						</div>
 						<div class="texto animado fadeRight undefined t-animated t-default" style="animation-duration: 1s; opacity: 1;">
 							<h5>02.</h5>
@@ -168,7 +168,7 @@
 					<section class="sec-1-home">
 						<div class="texto animado fadeLeft undefined t-animated t-default" style="animation-duration: 1s; opacity: 1;">
 							<h5>Seguros</h5>
-							<p>Riesgo</p>
+							<p style="color:white ;">Riesgo</p>
 						</div>
 						<div class="texto animado fadeRight undefined t-animated t-default" style="animation-duration: 1s; opacity: 1;">
 							<h5>03.</h5>
@@ -179,7 +179,7 @@
 					<section class="sec-1-home">
 						<div class="texto animado fadeLeft undefined t-animated t-default" style="animation-duration: 1s; opacity: 1;">
 							<h5>Aduana</h5>
-							<p>Normativa</p>
+							<p style="color:white ;">Normativa</p>
 						</div>
 						<div class="texto animado fadeRight undefined t-animated t-default" style="animation-duration: 1s; opacity: 1;">
 							<h5>04.</h5>
@@ -190,7 +190,7 @@
 					<section class="sec-1-home">
 						<div class="texto animado fadeLeft undefined t-animated t-default" style="animation-duration: 1s; opacity: 1;">
 							<h5>Asesoría en comercio exterior</h5>
-							<p>Acompañamiento</p>
+							<p style="color:white ;">Acompañamiento</p>
 						</div>
 						<div class="texto animado fadeRight undefined t-animated t-default" style="animation-duration: 1s; opacity: 1;">
 							<h5>05.</h5>
@@ -203,7 +203,7 @@
 					<section class="sec-1-home">
 						<div class="texto animado fadeLeft undefined t-animated t-default" style="animation-duration: 1s; opacity: 1;">
 							<h5>Outsourcing de comercio exterior</h5>
-							<p>Servicio Integral</p>
+							<p style="color:white ;">Servicio Integral</p>
 						</div>
 						<div class="texto animado fadeRight undefined t-animated t-default" style="animation-duration: 1s; opacity: 1;">
 							<h5>06.</h5>
@@ -225,7 +225,7 @@
 					<section class="sec-1-home">
 						<div class="texto animado fadeLeft undefined t-animated t-default" style="animation-duration: 1s; opacity: 1;">
 							<h5>Costeos de operaciones de importación</h5>
-							<p>Costos Directos</p>
+							<p style="color:white ;">Costos Directos</p>
 						</div>
 						<div class="texto animado fadeRight undefined t-animated t-default" style="animation-duration: 1s; opacity: 1;">
 							<h5>08.</h5>
@@ -236,7 +236,7 @@
 					<section class="sec-1-home">
 						<div class="texto animado fadeLeft undefined t-animated t-default" style="animation-duration: 1s; opacity: 1;">
 							<h5>Partner logístico</h5>
-							<p>Partnership</p>
+							<p style="color:white ;">Partnership</p>
 						</div>
 						<div class="texto animado fadeRight undefined t-animated t-default" style="animation-duration: 1s; opacity: 1;">
 							<h5>09.</h5>
@@ -252,13 +252,8 @@
 <div class="container text-center">
   <div class="row">
 		<div class="col">
-			<h2>En tucomex te asesoramos:</h2>
-			<p>Asesoramos en la gestión de la documentación base, a establecer criterios definidos sobre la distribución de los gastos y la transmisión de los riesgos entre la parte compradora y la parte vendedora en un contrato de compraventa internacional (incoterms), en procesos de embarque y logística, como reservas de espacio, pactar fletes, coordinación de transportes, consolidaciones, entre otros términos comerciales.
-
-				Contamos con un valioso equipo de trabajo especializado con la principal misión de asegurar la salida y buen estado de la mercadería hasta el puerto aéreo /marítimo / terrestre de destino. 
-
-				No se deja nada al azar, ya que  todos los procesos son controlados permitiendo que el exportador esté seguro que su carga va a cumplir todas sus etapas estipuladas en el tiempo óptimo.   </p>
-	
+			<h2 style="font-family:calibri";>MENTORÍA:</h2>
+			<p>Confeccionamos una estrategia del proceso, que permita una evolución positiva en el crecimiento del área de importaciones y exportaciones, tomando un plan que segmentaremos en pequeños hitos los cuales darán el resultado de optimización de la operación.</p>
 		</div>
 		<div class="col">
 		<video id="videors" controls poster="vistaprevia.jpg">
@@ -270,45 +265,74 @@
 
 <br>
 <div class="container-export-import">
-	  <div class="row">
+	  <div class="row" style="background:radial-gradient( #9e9999,  #080808)">
 			<div class="col" id="boxes">
-				<h2 style="text-align:center;">Comercio internacional:</h2>
-				<p style= "text-align:center;"> Analisamos el proceso, validamos tu operacion, mejoramos tu propuesta y llevamos al proximo nivel tu negocio,   </p>
+				<h2 style="text-align:center; font-family: 'calibri'; text-shadow:0 0 3px #000000, 0 0 5px #2b87b1">Comercio internacional:</h2>
+				<p style= "text-align:center;text-shadow:0 0 3px #000000, 0 0 5px #2b87b1;"> -Asesoría en procesos de documentación. <br> -Mejoramos el costo de la carga y el flete Reducción en los gastos con organismos estatales. <br> -Asesoría en cláusulas de ventas. </p>
 			</div>
 			<div class="col" id= "boxes1">
-				<h2 style="text-align:center;">Exportacion:</h2>
-				<p style= "text-align:center;"> Analisamos el proceso, validamos tu operacion, mejoramos tu propuesta y llevamos al proximo nivel tu negocio,   </p>
+				<h2 style="text-align:center; font-family: 'calibri'; text-shadow:0 0 3px #000000, 0 0 5px #2b87b1; ">Exportacion:</h2>
+				<p style= "text-align:center; text-shadow:0 0 3px #000000, 0 0 5px #2b87b1; "> Asesoría en el pago de todos los gastos y negociación de condiciones de pago.
+												Capacidad de Negociar Seguro de carga, fletes nacionales e internacionales.
+												Proceso de retiro de mercancías pago a proveedores y entrega a bodegas de clientes.
+												Asesoría en cláusulas de compra  </p>
 
 			</div>
 
 			<div class="col" id= "boxes2">
-				<h2 style="text-align:center;">Importacion:</h2>
-				<p style= "text-align:center;"> Analisamos el proceso, validamos tu operacion, mejoramos tu propuesta y llevamos al proximo nivel tu negocio,   </p>
+				<h2 style="text-align:center; font-family:'calibri'; text-shadow:0 0 3px #000000, 0 0 5px #2b87b1;">Importacion:</h2>
+				<p style= "text-align:center; text-shadow:0 0 3px #000000, 0 0 5px #2b87b1;"> Asesoría en el pago de todos los gastos y negociación de condiciones de pago.
+												Capacidad de Negociar Seguro de carga, fletes nacionales e internacionales.
+												Proceso de retiro de mercancías pago a proveedores y entrega a bodegas de clientes.
+												Asesoría en cláusulas de compra   </p>
 
 			</div>
 
 			<div class="col" id= "boxes3">
-				<h2 style="text-align:center;">Otros:</h2>
-				<p style= "text-align:center;"> Analisamos el proceso, validamos tu operacion, mejoramos tu propuesta y llevamos al proximo nivel tu negocio,   </p>
+				<h2 style="text-align:center; font-family:'calibri'; text-shadow:0 0 3px #000000, 0 0 5px #2b87b1;">Aduanas:</h2>
+				<p style= "text-align:center; text-shadow:0 0 3px #000000, 0 0 5px #2b87b1;"> Nuestra empresa ha establecido una alianza estratégica con Agencia de Aduanas certificadas, de tal manera de optimizar los servicios de internación o exportación aduanera de las mercaderías. Como prestador de servicios de Tucomexlatam, se califica caso a caso, según índices de calidad.</p>
 
 			</div>
   		</div>
 </div>
+<br>
 
-<div class="container" id="nosotrors">
+<div class="container">
 	<div class="row">
-		<div class="col">
-			<h2 style="text-align:center;">Nuestros servicios:</h2>
-			<p style= "text-align:center;"> Analisamos el proceso, validamos tu operacion, mejoramos tu propuesta y llevamos al proximo nivel tu negocio,   </p>
+		<div class="col" id="nosotrors">
+			<h2 style="text-align:center; font-family: 'calibri'">Nuestro team tiene:</h2>
+			<p style= "text-align:center;"> Algunos casos de éxito
+											Llevamos más de 15 años en el rubro haciendo asesoría dentro de la línea de algunas transnacionales las cuales pasamos a mencionar a continuación, déjanos asesorarte en tu proceso.</p>
+			<img src="{{asset('/img/Iconos/liderazgo.png')}}" alt="porque" style="align-items:flex-start; width:30%; height:30% ;margin-left: 170px;margin-top:30px">
+		</div>
+
+		<div class="col" id="nosotrors">
+			<h2 style="text-align:center; font-family: 'calibri'">¿Porque escogernos?:</h2>
+			<p style= "text-align:center;"> <p>Al tener al socio estratégico en tu operación puedes mejorar varios ítems, los cuales en un periodo de tiempo bajaran tus gastos y aumentaran tu productividad, así te enfocas en tus clientes y tu operación</p>
+			<img src="{{asset('/img/Iconos/team-building.png')}}" alt="porque" style="align-items:flex-start; width:30%; height:30% ;margin-left: 170px">
 		</div>
 	</div>
 </div>
+<br>
 
-<div class="container">
-	<h2>Todo Aqui</h2>
-	<p>A un click de distancia</p>
-	<button class="btn btn-primary">Click Me!</button>
+<div class="container" >
+
+<div class = "hero">
+        <h1 class="textors">CONTÁCTANOS</h1>
+    </div>
+<div class="mb-3" id="contacto1">
+  <label for="exampleFormControlInput1" class="form-label" >Tu correo</label>
+  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
 </div>
+<div class="mb-3" id="contacto1">
+  <label for="exampleFormControlTextarea1" class="form-label">Tus comentarios</label>
+  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+</div>
+<button type="button" class="btn btn-primary">Enviar</button>
+
+</div>
+
+
 @stop
 
 @extends('essentials.footer')

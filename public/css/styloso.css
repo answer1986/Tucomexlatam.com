@@ -5,12 +5,13 @@ input[type=number] {
   -moz-appearance: textfield;
 }
 .fondo-body {
-    background-image: url(../img/Imagen-fondo/SL.112119.25250.10.jpg);
+    /*background-image: url(../img/Imagen-fondo/Vector_2652.jpg);*/
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    background:radial-gradient( #9e9999, #080808);
     width: 100%;
-    filter: brightness(120%);
+    filter: brightness(100%);
     margin-top: 0px;
 }
 
@@ -36,7 +37,7 @@ input[type=number] {
     background-repeat: no-repeat;
     background-size: cover;
     width: 40px;
-    height: 35px;
+    height: 50px;
     top: 99%;
     right: 0;
 }

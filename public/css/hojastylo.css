@@ -238,13 +238,12 @@ margin: 0;
 }
 .barra-home a[class=barra-activa]::after {
   position: absolute;
-  content: '';
-  background-image: url(../img/Iconos/triangulo.png);
+  background-image: url(../img/Iconos/abajo.png);
   background-repeat: no-repeat;
   background-size: cover;
   width: 40px;
   height: 35px;
-  top: 99%;
+  top: 100%;
   right: 0;
 }
 .barra-home a {
@@ -276,6 +275,7 @@ margin: 0;
   margin-top: 50px !important;
   display: none;
   grid-template-columns: 1.5fr 2fr;
+  
 }
 .sec-1-home .texto {
   margin: 35px 0;
@@ -321,29 +321,41 @@ margin: 0;
 
 #boxes{
   border-style:solid;
-  color: #2b87b1;
+  color: #fcfeff;
   background-image: url(../img/fotoportada-preguntas/Importacion-exportacion.png);
+  background-size: cover;
   margin: 2px;
+ 
 }
 
 #boxes1{
   border-style:solid;
-  color: #2b87b1;
+  color: #fffcfc;
+  background-image: url(../img/fotoportada-preguntas/preguntas.jpg);
+  background-size: cover;
   margin: 2px;
-  background-image: url();
+  
+
 }
 
 #boxes2{
   border-style:solid;
-  color: #2b87b1;
+  color: #f8f9fa;
   margin: 2px;
+  background-image: url(../img/fotoportada-preguntas/Puerto.jpg);
+  background-size: cover;
+ 
 }
 
 #boxes3{
   border-style:solid;
-  color: #2b87b1;
+  color: #f8f9fa;
   margin: 2px;
+  background-image: url(../img/fotoportada-preguntas/aduana.jpg);
+  background-size: cover;
+
 }
+
 /** end index **/
 
 /*-- preguntas-views  --*/
@@ -401,4 +413,27 @@ margin: 0;
   width: 100%;
   height: 100%;
   }
+ }
+
+ #nosotrors{
+  -moz-border-radius: 300px;
+  -webkit-border-radius: 300px; 
+  border-radius: 30px;
+  border: 2px solid #2b87b1;
+  margin:5px; 
+  width:300px;
+  height:300px;
+
+ }
+
+ #nosotrors1{
+  -moz-border-radius: 300px;
+  -webkit-border-radius: 300px; 
+  border-radius: 30px;
+  border: 2px solid #2b87b1;
+  margin:5px; 
+  margin-left: 10px;
+  width:300px;
+  height:300px;
+
  }
