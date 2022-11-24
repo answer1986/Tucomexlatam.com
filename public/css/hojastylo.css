@@ -4,10 +4,126 @@
 
 #navegadora{
 
-background: radial-gradient( #9e9999,  #080808);
+background: radial-gradient( #303030,  #6a92ad);
 margin-top: 0px;
 padding-top:0px;
 padding-bottom: 0px;
+font-size: 30px;
+}
+
+.dropdown-content a:hover {background-color: #8f8989;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.header-top{
+  
+  background: radial-gradient(#303030, #6a92ad);
+  
+}
+
+
+#redes{
+  float: left;
+  margin-right: 3px;
+
+}
+
+
+/**front **/
+.presentacion{
+  position: relative;
+}
+
+#headline-7-1544{
+  position: absolute;
+  top:20%;
+  right: 0%;
+  color:white;
+  margin-right: 3%;
+  font-size: 70px;
+}
+
+.cajax1{
+  position: absolute;
+  top:80%;
+  color:white;
+  font-size:30px ;
+  left: 200px;
+  padding: 2px;
+  border-radius: 25px;
+  border-style: solid;
+  width: 120px; ;
+}
+
+.caja2{
+  position: absolute;
+  top:80%;
+  right:0%;
+  color:white;
+  font-size:30px ;
+  left: 700px;
+  padding: 2px;
+  border-style: solid;
+  border-radius: 25px;
+  width: 120px;
+}
+
+.caja3{
+  position: absolute;
+  top:80%;
+  right:0%;
+  color:white;
+  font-size:30px ;
+  padding: 2px;
+  left: 1100px;
+  border-style: solid;
+  border-radius: 25px;
+  width: 135px;
+}
+
+/** Expertos **/
+
+#experts{
+  position: relative;
+  height: 50%;
+}
+
+#expertors{
+  position: absolute;
+  top: 20%;
+  color: #2b87b1;
+  text-shadow: #000;
+  font-size: 50px;
+  margin-left: 35% ;
+}
+
+#expertorsp{
+  position: absolute;
+  top:40%;
+  color: #2b87b1;
+  font-size: 30px;
+
+}
+
+#footers{
+  background: radial-gradient(#908f8e, #080808);
+  text:white;
+}
+
+#text-navbar{
+  color: white;
+  font-size: medium;
+}
+
+#text-navbar:hover{
+  color: #2b87b1;
+
+} 
+
+#text-footer{
+  color: white;
 }
 
 #test{
@@ -48,36 +164,7 @@ a.dropbtn{
   text-align: left;
 }
 
-.dropdown-content a:hover {background-color: #8f8989;}
 
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-
-.header-top{
-  
-  background: radial-gradient(#908f8e, #080808);
-  
-}
-
-#footers{
-  background: radial-gradient(#908f8e, #080808);
-  text:white;
-}
-
-#text-navbar{
-  color: white;
-  font-size: small;
-}
-
-#text-navbar:hover{
-  color: #2b87b1;
-
-} 
-
-#text-footer{
-  color: white;
-}
 
 
 /** contacto  */

@@ -8,7 +8,7 @@
         <div id="test" class="container-fluid-arv" >
             
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <img src="{{ asset('img/logo.gif') }}" alt="logo" id="logo" style="width:120px; height:120px; margin-right:180px">
+                <img src="{{ asset('img/Logors-2.png') }}" alt="logo" id="logo" style="width:220px; height:110px; margin-right:180px">
 
                 <ul class="navbar-nav">
                     <li class="nav-item">
