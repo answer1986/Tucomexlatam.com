@@ -107,6 +107,15 @@ font-size: 30px;
 
 }
 
+#btnrs{
+  position: absolute;
+  top: 200%;
+  left: 45%;
+  color: #2b87b1;
+  font-size: 30px;
+  text:white;
+}
+
 #footers{
   background: radial-gradient(#908f8e, #080808);
   text:white;

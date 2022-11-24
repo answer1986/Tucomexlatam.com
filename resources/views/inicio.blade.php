@@ -25,6 +25,7 @@ Contamos con una red de partners a en los países con más crecimiento en el ár
 Conocemos los mercados así optimizamos tu operación.
 Por eso y más confía en nosotros.</p>
 </div>
+<button class="btn btn-primary" id="btnrs">Ver más</button>
 
 
 
