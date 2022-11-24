@@ -27,7 +27,11 @@ Por eso y más confía en nosotros.</p>
 </div>
 <button class="btn btn-primary" id="btnrs">Ver más</button>
 
+<div class="procesos">
 
+<img src="{{asset('/img/Imagen-fondo/procesos.gif')}}"  class="procesos-img"width="100%" height="60%" >
+
+</div>
 
 <div class="container" >
 

@@ -115,6 +115,16 @@ font-size: 30px;
   font-size: 30px;
   text:white;
 }
+/** fin expertos **/
+
+/** inicio procesos **/
+
+.procesos-img{
+ height: 60%;
+}
+
+/** fin procesos **/
+
 
 #footers{
   background: radial-gradient(#908f8e, #080808);
