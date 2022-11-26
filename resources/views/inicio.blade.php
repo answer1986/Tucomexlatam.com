@@ -53,21 +53,21 @@
 	<div class="row">
 		<div class="col" id="icono1">
 			<div class="icono1">
-				<img src="{{asset('/img/Iconos/3.png')}}" width="50%" height="20%">
+				<img src="{{asset('/img/Iconos/3.png')}}" width="30%" height="20%">
 				<h4>Realizamos Asesorias</h4>
 			</div>
 		</div>
 
 		<div class="col" id="icono2">
 			<div class="icono2">
-				<img src="{{asset ('/img/Iconos/4.png')}}" width="50%" height="20%">
+				<img src="{{asset ('/img/Iconos/4.png')}}" width="30%" height="20%">
 				<h4>Evaluamos las posibilidades</h4>
 			</div>
 		</div>
 
 		<div class="col" id="icono3">
 			<div class="icono3">
-				<img src="{{asset ('/img/Iconos/10.png')}}" width="50%" height="25%">
+				<img src="{{asset ('/img/Iconos/10.png')}}" width="30%" height="25%">
 				<h4>Tenemos los precios mas competitivos</h4>
 			</div>
 		</div>

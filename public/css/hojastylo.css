@@ -92,7 +92,6 @@ font-size: 30px;
   display: block;
 	top: 12em;
   
-  width: 80%;
   
   font-size: 2.5em;
 
@@ -104,32 +103,37 @@ font-size: 30px;
 
 .item-1{
 	animation-name: anim-1;
+  right: auto;
+
 }
 
 .item-2{
 	animation-name: anim-2;
+  right: auto;
+
 }
 
 .item-3{
 	animation-name: anim-3;
+  right: auto;
 }
 
 @keyframes anim-1 {
 	0%, 8.3% { left: -100%; opacity: 0; }
   8.3%,25% { left: 25%; opacity: 1; }
-  33.33%, 100% { left: 110%; opacity: 0; }
+  33.33%, 100% { left: 100%; opacity: 0; }
 }
 
 @keyframes anim-2 {
 	0%, 33.33% { left: -100%; opacity: 0; }
   41.63%, 58.29% { left: 25%; opacity: 1; }
-  66.66%, 100% { left: 110%; opacity: 0; }
+  66.66%, 100% { left: 100%; opacity: 0; }
 }
 
 @keyframes anim-3 {
 	0%, 66.66% { left: -100%; opacity: 0; }
   74.96%, 91.62% { left: 25%; opacity: 1; }
-  100% { left: 110%; opacity: 0; }
+  100% { left: 100%; opacity: 0; }
 }
 
 
@@ -224,6 +228,7 @@ font-size: 30px;
   color:white;
   margin-left: 70%;
   width:30% ;
+  height: 50% ;
   text-align: center;
   text-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
