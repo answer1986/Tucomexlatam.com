@@ -3,6 +3,8 @@
 @extends('essentials.navbar-top')
 @extends('essentials.navbar')
 
+<!-- integrarcon hubspot -->
+
 @section('content')
 
 <div class="consejos">

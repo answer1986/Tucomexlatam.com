@@ -20,6 +20,7 @@ font-size: 30px;
 .header-top{
   
   background: radial-gradient(#303030, #6a92ad);
+  font-size: 10px;
   
 }
 
@@ -83,11 +84,68 @@ font-size: 30px;
   width: 135px;
 }
 
+
+.item-1, 
+.item-2, 
+.item-3 {
+	position: absolute;
+  display: block;
+	top: 12em;
+  
+  width: 80%;
+  
+  font-size: 2.5em;
+
+  color:white;
+	animation-duration: 20s;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
+}
+
+.item-1{
+	animation-name: anim-1;
+}
+
+.item-2{
+	animation-name: anim-2;
+}
+
+.item-3{
+	animation-name: anim-3;
+}
+
+@keyframes anim-1 {
+	0%, 8.3% { left: -100%; opacity: 0; }
+  8.3%,25% { left: 25%; opacity: 1; }
+  33.33%, 100% { left: 110%; opacity: 0; }
+}
+
+@keyframes anim-2 {
+	0%, 33.33% { left: -100%; opacity: 0; }
+  41.63%, 58.29% { left: 25%; opacity: 1; }
+  66.66%, 100% { left: 110%; opacity: 0; }
+}
+
+@keyframes anim-3 {
+	0%, 66.66% { left: -100%; opacity: 0; }
+  74.96%, 91.62% { left: 25%; opacity: 1; }
+  100% { left: 110%; opacity: 0; }
+}
+
+
+
+
+
+
+
+
 /** Expertos **/
 
 #experts{
   position: relative;
   height: 50%;
+  margin: 0%;
+  position: 0;
 }
 
 #expertors{
@@ -108,26 +166,165 @@ font-size: 30px;
 }
 
 #btnrs{
-  position: absolute;
-  top: 200%;
+  position: relative;
+  top: 30%;
+  bottom: 20% ;
   left: 45%;
-  color: #2b87b1;
+  color: #0f0f10;
   font-size: 30px;
   text:white;
 }
 /** fin expertos **/
 
 /** inicio procesos **/
-
-.procesos-img{
- height: 60%;
+.procesos{
+  position: relative;
 }
+
+.procesos_img{
+ height: 800px;
+ position: relative;
+ display: flex;
+}
+
+#titleventajas{
+  position: absolute;
+  top: 15%;
+  color: white;
+  font-size: 300%;
+  margin-left: 40%;
+  width: 60%;
+ 
+}
+
+#icono1{
+  position: absolute;
+  top: 35%;
+  color:white;
+  margin-left: 10%;
+  width:30% ;
+  height: 30%;
+  text-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+
+}
+
+
+#icono2{
+  position: absolute;
+  top: 35%;
+  color:white;
+  margin-left:40%;
+  width:30% ;
+  text-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+#icono3{
+  position: absolute;
+  top: 35%;
+  color:white;
+  margin-left: 70%;
+  width:30% ;
+  text-align: center;
+  text-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+
+#parrafo{
+  position: absolute;
+  top: 75%;
+  color:white;
+  margin-left: 10%;
+  width: 80%;
+  font-size: 20px;
+  text-align: justify;
+  text-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+#btn5{
+  position: absolute;
+  top: 90%;
+  left: 32%;
+  color: white;
+  font-size: 30px;
+  text-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  width: 35%;
+}
+
+
 
 /** fin procesos **/
 
 
+
+/** Tu comex es **/
+
+
+#textors{
+  color: #2b87b1;
+  margin-right: 20%;
+  
+  }
+
+
+
+
+
+
+  
+ 
+
+
+
+.wave {
+   
+  color: rgb(98, 164, 199);
+  -webkit-text-stroke: 2px black;
+  animation: wave 3s ease-in-out infinite;
+  text-shadow:
+  -1px -1px 0 rgb(12, 12, 12), 
+  1px -1px 0 rgb(10, 9, 9),
+  -1px 1px 0 rgb(6, 6, 6),
+  1px 1px 0 rgb(6, 6, 6); 
+
+}
+
+.two {
+  transform: translateY(1em);
+}
+
+.three {
+  transform: translateY(-1em);
+}
+
+@keyframes wave {
+  0%, 100% {
+    clip-path: polygon(0% 47%, 10% 48%, 33% 54%, 54% 60%, 70% 61%, 84% 59%, 100% 52%, 100% 100%, 0% 100%);
+  }
+
+  50% {
+    clip-path: polygon(0% 60%, 15% 65%, 34% 66%, 51% 62%, 67% 50%, 84% 45%, 100% 46%, 100% 100%, 0% 100%);
+  }
+
+}
+
+
+
+#videors{
+  background-color: orange;
+  width: 600px;
+
+}
+
+
+
+/** fin de tu comex es **/
+
+
+
+
+
 #footers{
-  background: radial-gradient(#908f8e, #080808);
+  background: radial-gradient( #303030,  #6a92ad);
   text:white;
 }
 
